@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina di login">
+    <title>Car Finish - Home</title>
+
+    <link rel="stylesheet" href="pure/pure.css">
+    <link rel="stylesheet" href="accesso/css/style.css">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="pure/grids-responsive.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="login/css/layouts/marketing.css">ŋ}g0ŋ}
+        <!--<![endif]-->
+</head>
+<body>
+
+<div class="splash-container">
+
+   <div class="login-page">
+    <div class="form">
+
+     <form class="register-form" action="accesso/registra.php" method="post">
+      <p class="intestazione">Car Finish - Fasano</p>
+      <input type="text" placeholder="username" name="regUser" required/>
+      <input type="password" placeholder="password" name="regPassw" required/>
+      <input type="text" placeholder="codice cliente" name="codice" required/>
+      <button>crea</button>
+      <p class="message"><a href="#">Login</a></p>
+    </form>
+
+    <form class="login-form" action="accesso/login.php" method="post">
+      <p class="intestazione">Car Finish - Fasano</p>
+      <input type="text" placeholder="username" name="user" required>
+      <input type="password" placeholder="password" name="passw" required>
+      <button type="submit">login</button>
+      <p class="message"> <a href="#">Registrati</a></p>
+    </form>
+
+   </div>
+  </div>
+
+  <script src="accesso/js/jquery.min.js"></script>
+  <script src="accesso/js/index.js"></script>
+
+</div>
+
+</body>
+</html>
